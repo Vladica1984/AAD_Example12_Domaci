@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.graphics.Camera;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Toast;
 
@@ -90,8 +91,8 @@ public class SecondActivity extends Activity {
         startActivity(intent);
     }
 
-    public void btnOpenCameraClicked(Camera camera) {
-        Intent i = new Intent(Intent.ACTION_CAMERA_BUTTON, Uri.parse(CAMERA_SERVICE));
+    public void btnOpenCameraClicked(View view) {
+        Intent i = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         startActivity(i);
     }
 }
