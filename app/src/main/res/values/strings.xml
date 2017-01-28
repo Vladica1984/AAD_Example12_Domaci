@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">iReviewer</string>
 
-    <string name="start_activity">Start an Activity</string>
-    <string name="open_browser">Open Web Browser</string>
+    <string name="start_activity">start activity</string>
+    <string name="open_browser">open browser</string>
+    <string name="start_an_third_activity">start an third activity</string>
+    <string name="starting_camera">starting camera</string>
+
+
 </resources>
